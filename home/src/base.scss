@@ -1,0 +1,8 @@
+$navColor: #06c1ae;
+@mixin renderArrow($a: 10px, $b: #000, $c: top){
+	width: 0;
+	height: 0;
+	font-size: 0;
+	border: $a solid transparent;
+	border-#{$c}-color: $b;
+}
